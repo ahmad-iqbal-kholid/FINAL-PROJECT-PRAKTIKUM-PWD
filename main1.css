@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #c61212;
+
+  }
+  
+
+body {
+    background: linear-gradient( #6795ff, #ededed);
+      
+}
+
+
+
+  footer {
+    background-color: rgb(5, 141, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
