@@ -1,19 +1,20 @@
-.navbar{
-    background-color: #c61212;
-
-  }
-  
-
 body {
-    background: linear-gradient( #6795ff, #ededed);
-      
+    background-image: linear-gradient(to bottom, #77d6ff, #c3f2ff);
+    display : flex;
+    
 }
 
+nav {
+  background-color: #77d6ff;
+  display: flex;
+}
+nav div img{
+  width: 800px;
+  height: 108px;
+  margin: 0px;
+}
 
-
-  footer {
-    background-color: rgb(5, 141, 0);
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
+footer {
+  background-color: #a25d25;
+  
+}
