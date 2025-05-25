@@ -1,20 +1,114 @@
 body {
-    background-image: linear-gradient(to bottom, #77d6ff, #c3f2ff);
-    display : flex;
-    
+  background-image: linear-gradient(to bottom, #77d6ff, #c3f2ff);
+  display : flex;
+  
 }
 
 nav {
-  background-color: #77d6ff;
-  display: flex;
+background-color: #77d6ff;
+display: flex;
 }
 nav div img{
-  width: 800px;
-  height: 108px;
-  margin: 0px;
+width: 800px;
+height: 108px;
+margin: 0px;
 }
 
 footer {
-  background-color: #a25d25;
-  
+background-color: #a25d25;
+
+}
+
+/* user */
+body {
+    background: linear-gradient(to right, #332D56, #4E6688);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #2575fc;
+    border: none;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #1a5ed8;
+}
+
+.btn-secondary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.alert-danger {
+    margin-bottom: 20px;
+}
+
+
+/* admin */
+
+body {
+    background: linear-gradient(to right, #332D56, #4E6688);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 25px 20px;
+    background-color: #ffffffee;
+}
+
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-warning {
+    background-color: #ff9800;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e68900;
+}
+
+.alert-danger {
+    font-size: 14px;
 }
